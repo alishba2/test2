@@ -1,0 +1,120 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 3em;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background-color: aquamarine;
+    border-radius: 19px; 
+    font-family: 'Dancing Script', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.container div img{
+    height: 75px;
+    width: 75px;
+}
+.c1A{
+    width: 17em;
+    padding: 20px 0px 0px 30px;
+    display: flex;
+
+}
+.c2A{
+    width: 83em;
+    /* padding: 20em; */
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align:left;
+    padding: 13px;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+.c2A section p{
+    width: 60em;
+}
+.headText{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+padding-top: 23px;
+}
+.container ul{
+    padding-left: 12px;
+    padding-top: 15px;
+}
+.container ul li{
+    padding-top: 20px;
+   /* padding-left: -50px; */
+}
+.container ul li a{
+    padding-left: 20px;
+}
+.head2Text{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+.head3Text{
+    font-size: 4em;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    margin-top: 6em;
+    align-items: center;
+}
+.container2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 6em; */
+}
+.C2A{
+
+    display: flex;
+    flex-direction: column;
+}
